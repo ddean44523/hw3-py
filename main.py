@@ -4,7 +4,7 @@ def digit_sum(n):
   else:
     l = n % 10 #last digit
     n = l + digit_sum(n//10)  
-    return n
+    return n 
 
 def run():
  Uin = int(input("Enter an int: "))
