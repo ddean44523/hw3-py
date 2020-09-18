@@ -20,7 +20,7 @@ def restDig(n):
   return n % 10 ** (len(str(n))- 1)
 
 def run():
-  Uin = int(input("enter numb: "))
+  Uin = int(input(""))
   print(digit_sum(Uin))
   # 0 is actually a big problem
 
